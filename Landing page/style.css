@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height:100%;
+    
+}
+#top{width: 100%;
+    height: 60%;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+    background-blend-mode: darken;
+
+}
+#bottom{
+    width: 100%;
+    height: 40%;
+    background-color:aquamarine;
+    display: flex;
+}
+#bone{
+    width: 25%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.775);
+    background-image: url(technews_4x.png);
+    background-size: cover;
+    color: black;
+    background-blend-mode: color-burn;
+}
+#btwo{
+    width: 25%;
+    height: 100%;
+    background-image: url(B2.avif);
+    background-size: cover;
+    background-color: blanchedalmond;
+    border: solid black 2%;
+    padding: 2%;
+}
+#bthree{
+    width: 20%;
+    height: 100%;
+    background-color: black;
+}
+#bfour{
+    width: 30%;
+    height: 100%;
+    background-color:#222f3d;
+    color: aliceblue;
+    position: relative;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.316);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#text{
+    width: 100%;
+    height: 65%;
+    position: absolute;
+    top: 20%;
+    background-color: rgba(240, 255, 255, 0.556);
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.LOGO{
+    background-image: url(logo.png);
+    background-size: cover;
+    width: 30%;
+    height: 100%;
+}
+#search{
+    font-size: larger;
+}
+#member{
+    display: flex;
+    width: 60%;
+    height: 20%;
+    justify-content: space-between;
+    
+}
+#member h3{
+    border-radius: 10%;
+    background-color: rgba(245, 245, 220, 0.377);
+    border-left: 20%;
+    padding: 1%;
+
+}
+#quote{
+    position: absolute;
+    right: 5%;
+    bottom: 15%;
+    
+    height: 50%;
+    width: 60%;
+    font-size: large;
+    
+    border: dotted gray 1%;
+}
+.topnav{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-family: cursive;
+}
+#handles{
+    display: flex;
+    width: 60%;
+    height: auto;
+    justify-content: space-evenly;
+   
+}
+#part1{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(255, 255, 240, 0.229);
+    
+    
+}
+#part2{
+    background-image: url(OIP.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+}
+.photo{
+    
+    padding: 30px;
+}
+.notif{
+    justify-content: space-between;
+    
+    position: absolute;
+    top: 30%;
+    
+}
+.notif .photo1{
+    height: 40px;
+    width: 40px;
+    background-image: url();
+    background-color: red;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(Employee.jpg);
+}
+.notif p{
+    font-size: small;
+}
+.notif h4{
+    font-size: small;
+}
+.notif .photo2{
+    height: 40px;
+    width: 40px;
+    background-image: url();
+    background-color: red;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url(Employee\ 2.jpg);
+}
+#part1{
+    background-image: url(th.jpg);
+    background-size: cover;
+    background-blend-mode: color-burn;
+    font-family: cursive;
+    font-weight: 600;
+    color: rgba(128, 128, 128, 0.74);
+    background-color: #0e2433;
+
+}
+.Hiring{
+color: white;}
