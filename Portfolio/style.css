@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: rgb(0, 0, 29);
+    font-family: "Poppins", sans-serif;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: rgb(4, 4, 49);
+    justify-content: space-between;
+    
+
+}
+
+.right ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+
+}
+
+.right {
+    width: 60%;
+    height: 100%;
+    justify-content: space-evenly;
+    padding: 1%;
+    align-items: center;
+}
+
+.left {
+    padding: 1%;
+    margin-left: 2%;
+    font-size: 1.5rem;
+}
+
+.first {
+    display: flex;
+    margin-left: 2%;
+    position: relative;
+
+}
+
+.left2 {
+    align-items: center;
+  margin-left: 5%;
+    margin-top: 5%;
+    font-size: larger;
+}
+
+.right2 {
+    position: absolute;
+    right: 5%;
+    top: 10%; 
+    height: 37%;  
+    width: 30%; 
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#name {
+    color: rgb(161, 69, 161);
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(135, 135, 210);
+    font-size: 1.5rem;
+
+}
+
+#element {
+    color: rgb(73, 73, 187);
+}
+
+#element2 {
+    color: rgb(60, 60, 219);
+}
+
+
+.second{
+   
+    bottom: 40%;
+    margin-left: 5%;
+    width: 50%;
+;}
+.hr{
+margin-top: 5%;
+margin-left: 1%;
+}
+.textgray{
+color: gray;
+font-size: x-small;}
+.second p{
+    font-size: small;
+}
+.vertical{
+   
+    background-color: aliceblue;
+    width: 1px;
+    height:100px;
+  
+}
+.work{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.footpanel1{
+   
+    bottom: 1%;
+}
+.horizontal{
+    
+  
+    background-color: aliceblue;
+    
+}
+.foot{
+    margin-top: 3%;
+   margin-left: 8%;
+}
+.right3{
+    position:absolute;
+    right: 50%;
+    height: 10%;
+    background-image: url(OIP\ \(1\).jpg);
+    width: 15%;
+    background-size: cover;
+   
+}
+#about{
+    margin-top: 3%;
+    position: absolute;
+    right: 25%;
+}
+#resume{
+    position: absolute;
+    right: 25%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: aliceblue;
+}
+#resume:hover{
+    color: blueviolet;
+}
+.img{
+    background-image: url(WhatsApp\ Image\ 2024-05-26\ at\ 14.47.53_3e523714.jpg);
+    width: 10%;
+    height: 30%;
+    position: absolute;
+    background-size: cover;
+    right: 12%;
+    border-radius: 50%;
+    border: 3px solid white;
+}
